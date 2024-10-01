@@ -43,6 +43,8 @@ The different parts of the code are explained in next sections. It is recommende
 * chatbot.py
 * document_loader.py
 
+There are also *style.css* and *index.html* files for the web interface. 
+
 #### 2.2.1. app.py
 This code setups a simple web interface based on Flask that allows users to ask policy related questions and receive responses from the chatbot. The logic of the application for answering the questions has been designed in the *PoliciesChatbot* of the *chatbot.py* module. To get question answers, the app just calls the *run_step()* method of the *PoliciesChatbot* class.
 
